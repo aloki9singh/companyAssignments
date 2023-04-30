@@ -4,6 +4,8 @@ import "../CSS/App.css";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
+  //used to open and close hamburger
+
   function toggleMenu() {
     setMenuOpen(!menuOpen);
     console.log(menuOpen);
@@ -13,14 +15,15 @@ const Navbar = () => {
     <div id="nav">
       <div>
         <div id="nav_logo">
-          <div>
+          <Link to={"/"}>
             <div id="logo">
               <span>
                 <h1 id="move">BR</h1>
               </span>
             </div>
-          </div>
+          </Link>
         </div>
+        {/* Links to be shown in desktop view in navbar */}
         <div id="links">
           <ul>
             <Link to="/">
@@ -38,6 +41,7 @@ const Navbar = () => {
             </Link>
           </ul>
         </div>
+        {/* hamburger with onClickEvent made with respective CSS */}
         <div
           id="ham"
           className={`hamburger_${menuOpen ? "active" : ""}`}
@@ -52,6 +56,7 @@ const Navbar = () => {
           ) : (
             <div className="cancel">X</div>
           )}
+           {/* Links to be shown in Side Nav of mobile view */}
           <ul className={`menu_${menuOpen ? "active" : "hide"}`}>
             <Link to="/">
               <li>Home</li>

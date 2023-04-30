@@ -16,6 +16,7 @@ const Home = () => {
     <div id="home">
       {home.length !== 0 ? (
         home.map((e) => (
+          // Card used in mapping data
           <div
             className="card"
             key={e._id}
