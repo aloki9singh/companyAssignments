@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../CSS/Home.css";
 const getabout = () => {
-  return fetch(`https://victorious-slug-apron.cyclic.app/api/home`);
+  return fetch(`https://agreeable-duck-dirndl.cyclic.app/api/home`);
 };
 const Home = () => {
   const [home, setHome] = useState([]);
@@ -11,6 +11,7 @@ const Home = () => {
       .then((res) => res.json())
       .then((res) => setHome(res));
   }, []);
+  console.log(home);
   return (
     <div id="home">
       {home.length !== 0 ? (

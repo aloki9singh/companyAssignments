@@ -3,6 +3,7 @@ form {
   margin: auto;
   align-items: center;
   text-align: center;
+ 
 }
 input,
 textarea {
@@ -24,8 +25,8 @@ input:last-child {
 }
 #contact {
   align-items: center;
-
-  margin-top: 120px;
+  margin-bottom: 170px;
+  margin-top: 150px;
 }
 #contact > form {
   border: 3px solid teal;

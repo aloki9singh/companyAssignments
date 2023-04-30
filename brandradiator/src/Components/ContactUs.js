@@ -30,7 +30,7 @@ const ContactUs = () => {
   //setData of input to Mongo database using POST request
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("https://victorious-slug-apron.cyclic.app/api/home", {
+    const res = await fetch("https://agreeable-duck-dirndl.cyclic.app/api/home", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

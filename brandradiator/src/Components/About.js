@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../CSS/about.css";
 
 const getabout = () => {
-  return fetch(`https://victorious-slug-apron.cyclic.app/api/about`);
+  return fetch(`https://agreeable-duck-dirndl.cyclic.app/api/about`);
 };
 const About = () => {
   const [about, setAbout] = useState([]);

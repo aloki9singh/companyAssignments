@@ -5,14 +5,14 @@ import "../CSS/dashboard.css";
 import pen from "../image/Pen.png";
 import trash from "../image/trash.png";
 const getdashboard = () => {
-  return fetch(`https://victorious-slug-apron.cyclic.app/api/home`);
+  return fetch(`https://agreeable-duck-dirndl.cyclic.app/api/home`);
 };
 
 const Dashboard = () => {
   const [dashdata, setDashdata] = useState([]);
   const navigate = useNavigate();
   const { token } = useContext(Context);
-  
+
   //get data
   const getData = () => {
     getdashboard()
@@ -21,9 +21,12 @@ const Dashboard = () => {
   };
   //deletedata
   const deletedata = async (id) => {
-    let res = await fetch(`https://victorious-slug-apron.cyclic.app/api/home/${id}`, {
-      method: "DELETE",
-    });
+    let res = await fetch(
+      `https://agreeable-duck-dirndl.cyclic.app/api/home/${id}`,
+      {
+        method: "DELETE",
+      }
+    );
     let data2 = res.then((res) => res.json());
 
     if (res.status === 404 || !data2) {
@@ -35,34 +38,13 @@ const Dashboard = () => {
       alert("User is deleted ");
     }
   };
-  //updatedata
-  const updatedata = async (id, data) => {
-    let res = await fetch(`https://victorious-slug-apron.cyclic.app/api/home/${id}`, {
-      method: "PATCH",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    });
-    let data2 = res.then((res) => res.json());
 
-    if (res.status === 404 || !data2) {
-      alert("error");
-      console.log("Error!");
-    } else {
-      getData();
-      setDashdata(data2);
-      alert("User is Updated Successfully");
-    }
-  };
-  
   useEffect(() => {
     getData();
-    
   }, [dashdata]);
-if(token==""){
-  navigate('/admin')
-}
+  if (token == "") {
+    navigate("/admin");
+  }
 
   return (
     <div id="dashboard">

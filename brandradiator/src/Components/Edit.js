@@ -15,7 +15,7 @@ const Edit = () => {
 
   //getdata
   const getData = () => {
-    fetch(`https://victorious-slug-apron.cyclic.app/api/home/${id}`)
+    fetch(`https://agreeable-duck-dirndl.cyclic.app/api/home/${id}`)
       .then((res) => res.json())
       .then((res) => setInput(res.data));
   };
@@ -33,13 +33,16 @@ const Edit = () => {
   //setData of input to Mongo database using POST request
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch(`https://victorious-slug-apron.cyclic.app/api/home/${id}`, {
-      method: "PATCH",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(input),
-    });
+    const res = await fetch(
+      `https://agreeable-duck-dirndl.cyclic.app/api/home/${id}`,
+      {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(input),
+      }
+    );
 
     const data = await res.json();
     if ((input.image = "" || input.details == "" || input.heading == "")) {
