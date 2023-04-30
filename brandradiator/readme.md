@@ -14,7 +14,7 @@ https://github.com/aloki9singh/brandradiator
 
 # Tech Stack and Tools Used :
 
-VS Code, Postman, React.js, MongoDB, Express, Jsonwebtoken, Bcrypt, Node.js, nodemon, dotenv, mongoose, CSS, HTML, Cyclic, Vercel and Canva for the logo.
+`VS Code`, `Postman`, `React.js`, `MongoDB`, `Express`, `Jsonwebtoken`, `Bcrypt`, `Node.js`,`nodemon`, `dotenv`, `mongoose`, `CSS`, `HTML`, `Cyclic`, `Vercel` and `Canva` for the logo.
 
 # Some instructions to run locally :
 
