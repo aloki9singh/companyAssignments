@@ -1,0 +1,41 @@
+#dashboard {
+  text-align: center;
+
+  margin-top: 120px;
+  /* justify-content: space-between; */
+}
+
+td,th {
+  white-space: nowrap; /* Prevents line breaks within the cell */
+  overflow: hidden; /* Hides any content that overflows the cell */
+  text-overflow: ellipsis; /* Displays an ellipsis (...) to indicate overflow */
+  max-width: 150px; /* Limits the maximum width of the cell */
+  padding: 5px;
+}
+
+table {
+  margin: auto;
+}
+
+thead {
+  color: teal;
+}
+td > img {
+  width: 13px;
+}
+thead > :nth-child(6) {
+  color: red;
+}
+thead > :nth-child(5) {
+  color: green;
+}
+@media only screen and (max-width: 700px) {
+  td,th {
+    max-width: 50px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  td ,th{
+    max-width: 30px;
+  }
+}

@@ -1,0 +1,41 @@
+form {
+  width: 70%;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+input,
+textarea {
+  width: 90%;
+  border: 1px solid teal;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  overflow: hidden;
+}
+input:hover,
+textarea:hover {
+  border: 1px solid;
+  /* color: rgb(119, 217, 119); */
+}
+
+input:last-child {
+  width: 50%;
+}
+#contact {
+  align-items: center;
+
+  margin-top: 120px;
+}
+#contact > form {
+  border: 3px solid teal;
+  border-radius: 20px;
+  width: 30%;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  #contact > form {
+    width: 90%;
+  }
+}
