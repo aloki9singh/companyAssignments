@@ -1,46 +1,34 @@
-<!--
-Subrat Sinha <subrat@brandradiator.com>
-11:44 (4 hours ago)
-to Info, Himani, Rishabh, bcc: me
+# Brand_Radiator_Assignment
+https://brandradiator.vercel.app 
+# Overview
 
-Hello
+# Frontend Vercel Deployed Link :
+https://brandradiator.vercel.app
 
-Thank you for the support in hiring resources.
-Below is the task the resources have to complete.
-The timeline for this will be 4 days, i.e. by Monday 1st May 2023.
+# Backend Cyclic Deployed Link: 
+https://victorious-slug-apron.cyclic.app/
 
-Prove your skills by creating a unique website where the below points are mandatory.
-• Header
-• Logo
-• Side nav in a hamburger menu
-• Main lead space
-• Content
-• Footer
+###  Server git repo
+https://github.com/aloki9singh/brandradiator
 
-In Navigation there will be
-• Home
-• About
-• Contact Us
-• Admin (which will have a login dashboard to view data submitted from the contact us form)
+# Tech Stack :
+# A) Frontend :
+React
+# B) Backend :
+*Node.js*, Express.js, mongodb (NoSQL), mongoose for connect database to server, cors for handling the cors error, relationships between collections.
 
-In About there will be content from either json or any free API (if you are applying for full stack use an API)
+# Some instructions to run locally :
+For Setup ---> npm install
 
-In contact us you will be creating a form which will store data on the click of the submit button in the DB.
-…AND
-• All code should be in the GitHub and hosting this will get you an additional advantage over other candidates.
-• Also note you cannot use any template such as (bootstrap, tailwind etc) The HTML and CSS should be written by you and must be responsive.
-• FE should be ReactJs (Create react app, Vite, Parcel etc is allowed)
-• Do not copy code from google or github ( be original)
+For Frontend: ---> npm run start
 
-All the best.
+For Backend: ----> npm run dev
+
+PORT --->8080
 
 
+# Some Project Screenshots :
+# A) For Desktop:
 
-Subrat Sinha
-Business Strategy Division
-DRDLAB Private Limited
-Brand Radiator -->
-<!-- 
-https://bran
-dradiator.verc
-el.app -->
+# B) For Mobile/Tablet Screen :
+
