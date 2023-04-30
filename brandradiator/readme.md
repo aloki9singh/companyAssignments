@@ -27,7 +27,8 @@ For Backend: ----> npm run dev
 
 
 # Some Project Screenshots :
-# A) For Desktop:
+## A) For Desktop:
+
 ![Screenshot (126)](https://user-images.githubusercontent.com/107742899/235376462-d928c3ba-4ed9-43e7-a358-f40eaba522ba.png)
 
 ![Screenshot (127)](https://user-images.githubusercontent.com/107742899/235376467-b4cf353e-2631-4ccb-b770-175fafccf1a3.png)
@@ -37,5 +38,12 @@ For Backend: ----> npm run dev
 ![Screenshot (129)](https://user-images.githubusercontent.com/107742899/235376480-2e18fd88-1744-4d4c-a9b5-ce1240b8d904.png)
 
 
-# B) For Mobile/Tablet Screen :
+## B) For Mobile/Tablet Screen :
 
+![IMG_20230501_024642](https://user-images.githubusercontent.com/107742899/235376696-2c89b4d9-daaa-4983-b7a0-0a5adfc2b2f9.jpg)
+
+![IMG_20230501_024549](https://user-images.githubusercontent.com/107742899/235376702-5f5ded27-2a03-4467-8bed-715285d0aca8.jpg)
+
+![IMG_20230501_024626](https://user-images.githubusercontent.com/107742899/235376721-009ca9c4-ae21-4d8c-85c4-e60a60b9b410.jpg)
+
+![IMG_20230501_024612](https://user-images.githubusercontent.com/107742899/235376724-001d6c29-7ebd-4cd3-9f93-53dc4678e174.jpg)
