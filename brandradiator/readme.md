@@ -8,6 +8,9 @@ https://brandradiator.vercel.app
 # Backend Cyclic Deployed Link: 
 https://victorious-slug-apron.cyclic.app/
 
+###  Server git repo
+https://github.com/aloki9singh/brandradiator
+
 # Tech Stack :
 # A) Frontend :
 React
