@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "../CSS/Home.css";
-const getabout = () => {
-  return fetch(`https://agreeable-duck-dirndl.cyclic.app/api/home`);
-};
+
 const Home = () => {
   const [home, setHome] = useState([]);
 
   useEffect(() => {
-    getabout()
+    fetch(`https://agreeable-duck-dirndl.cyclic.app/api/home`)
       .then((res) => res.json())
       .then((res) => setHome(res));
   }, []);
